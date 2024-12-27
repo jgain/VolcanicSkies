@@ -1,0 +1,5 @@
+{
+    "radius" : 6371000,
+    "rotPeriod" : 86400,
+    "aveTemp" : 288.15
+}

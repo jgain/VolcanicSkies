@@ -1,0 +1,89 @@
+{
+    "P": {
+        "airSpecHeatCapacity": 1006.0,
+        "atmoThickness": 10000.0,
+        "aveTemp": 288.15,
+        "averageSeaLevelPressure": 101325.0,
+        "gravitationalAcceleration": 9.81,
+        "latentHeatofVaporisation": 2257.0,
+        "maxVapourDensity": 0.29427,
+        "maxWindSpeed": 40.0,
+        "moistureSpecHeatCapacity": 4000.0,
+        "molarAirMass": 0.0289644,
+        "name": "Terra",
+        "radius": 6371000.0,
+        "referenceHeight": 0.0,
+        "rotPeriod": 86164.1,
+        "tempLapseRate": 0.0098,
+        "terrainAlbedo": {
+            "ICE": 0.4,
+            "SOIL": 0.2,
+            "VEGETATION": 0.2,
+            "WATER": 0.1
+        },
+        "terrainDensity": {
+            "ICE": 919.0,
+            "SOIL": 2600.0,
+            "VEGETATION": 2700.0,
+            "WATER": 1000.0
+        },
+        "terrainEmissivityConstants": {
+            "ICE": 0.98,
+            "SOIL": 0.91,
+            "VEGETATION": 0.94,
+            "WATER": 0.952
+        },
+        "terrainIsDry": {
+            "ICE": false,
+            "SOIL": true,
+            "VEGETATION": true,
+            "WATER": false
+        },
+        "terrainSpecHeatCapacity": {
+            "ICE": 2104.0,
+            "SOIL": 800.0,
+            "VEGETATION": 800.0,
+            "WATER": 4000.0
+        },
+        "terrainTypes": [
+            "WATER",
+            "ICE",
+            "SOIL",
+            "VEGETATION"
+        ]
+    },
+    "actualSize": 50000.0,
+    "aheSurfaceFluxRatio": 1.5,
+    "aheThreshold": 9.999999747378752e-05,
+    "atmoTopHeight": 12000.0,
+    "coriolis": true,
+    "gridWidth": 60,
+    "hdeCoefficient": -1.0,
+    "initialEjectionAngle": 0.0,
+    "initialPlumeDensity": 200.0,
+    "initialPlumeSpeed": 150.0,
+    "maxLayers": 10,
+    "plumeDT": 0.0020000000949949026,
+    "pteCondensationCoefficient": 0.10000000149011612,
+    "pteDoCondensation": true,
+    "pteDoCondensationHeatExchange": true,
+    "pteDoEvaporation": true,
+    "pteDoEvaporationHeatExchange": true,
+    "pteDoParticleCondensation": true,
+    "pteEvaporationCoefficient": 0.10000000149011612,
+    "smokeTextureFile": "/home/cilliers/Documents/CSC5002W/VolcanoWeather/resources/smoke_texture.png",
+    "subspheres": 500,
+    "subsubspheres": 0,
+    "suns": [],
+    "terrainCellWidth": 512,
+    "terrainFile": "/home/cilliers/Documents/CSC5002W/VolcanoWeather/resources/sthelens_detailed_sub5.obj",
+    "theHeatLossCoefficient": 0.30000001192092896,
+    "vceConvectCouplingCoeff": 0.0005000000237487257,
+    "vcePerformPressureUplift": true,
+    "vcePressureCouplingCoeff": 0.004999999888241291,
+    "vcePressureUpliftCoeff": 0.0010000000474974513,
+    "ventAltitude": 0.0,
+    "ventRay": 100.0,
+    "weDt": 5.0,
+    "wmThreshold": 0.25
+}

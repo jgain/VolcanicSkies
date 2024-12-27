@@ -1,0 +1,2029 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2737E7FE1AE34557A38E5313 /* terviewer_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1C9D3694F23D4B9FAF8958C2 /* Build configuration list for PBXAggregateTarget "terviewer_autogen" */;
+			buildPhases = (
+				391D0E5CB95D2D3047C6CF6C /* Generate terviewer/CMakeFiles/terviewer_autogen */,
+			);
+			dependencies = (
+				E588887EB6D14CBEBF008EB0 /* PBXTargetDependency */,
+				0CD4EACB9F4F4AD592E0DBA0 /* PBXTargetDependency */,
+			);
+			name = terviewer_autogen;
+			productName = terviewer_autogen;
+		};
+		3D9CFC8F2ECF4CF6B7ECE922 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C32A5898A654A5AB208E5E7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9DBDE7656E45739BD8A2D934 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		465977371B9142DCBE57B060 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E3FBE8485B0745108C66E126 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		E76209E7ED4D4F6D8F8BFAB9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6A95821C71064F15BAD40CF9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2AC5051A63E6E8AC0EE940BA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				0C5E8D50BC7447F6A35DE71D /* PBXTargetDependency */,
+				C0D72C1820F74CB5A587E9B6 /* PBXTargetDependency */,
+				BBCE8440BE1F41558DD2BD8F /* PBXTargetDependency */,
+				DB8DF7E44BB44723A9CDDD72 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EB2D7C4E3B314D39AB1296DA /* vgui_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 782F3B785C9E4233AA4B7A6E /* Build configuration list for PBXAggregateTarget "vgui_autogen" */;
+			buildPhases = (
+				CAC5D079DDD801F3D3768714 /* Generate terviewer/CMakeFiles/vgui_autogen */,
+			);
+			dependencies = (
+				EF44FDB6F4FA438AAEB68EB6 /* PBXTargetDependency */,
+				53909CDA84CC457FB1C16FE5 /* PBXTargetDependency */,
+			);
+			name = vgui_autogen;
+			productName = vgui_autogen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01FB94AF55A248189AD3ECEE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.cpp */ = {isa = PBXBuildFile; fileRef = 5868414B5D92461680D4027E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.cpp */; };
+		0740C91283DE4F9FBFB9464A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 22980A10FEC9433897EDA3D0 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/mocs_compilation.cpp */; };
+		088F4544A0344CB98705876A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.cpp */ = {isa = PBXBuildFile; fileRef = 1D981525890F450F9CFA8D2E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.cpp */; };
+		0946704567E747A891223BAA /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.h */ = {isa = PBXBuildFile; fileRef = 617825C629DD45C09A8E4AF8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.h */; };
+		0B0D3F1CF53A4742B337731D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.cpp */ = {isa = PBXBuildFile; fileRef = FAFC7DF845B34681837D661E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.cpp */; };
+		0C05005C37DC40228E0620C9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.h */ = {isa = PBXBuildFile; fileRef = BEDC8A30F5B34A5EA74FFCC1 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.h */; };
+		0D99C178329A47958AA1A640 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.cpp */ = {isa = PBXBuildFile; fileRef = 230AF562C5F04AB2BA4859A4 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.cpp */; };
+		13BDD32CB31B482FA7E77FAB /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.h */ = {isa = PBXBuildFile; fileRef = B25F1D6B1EFF487CAD87C6FE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.h */; };
+		14328EFAC4B04E1FAC77DE05 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.cpp */ = {isa = PBXBuildFile; fileRef = 99DB84A079CF418BA0A0D47A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.cpp */; };
+		172E81310B4C4D03B36E353B /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.h */ = {isa = PBXBuildFile; fileRef = 91B5FCB764AA4B478DFE75FF /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.h */; };
+		22AF84A7308648D7B37946A3 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.cpp */ = {isa = PBXBuildFile; fileRef = E5B839EDFE2244099B20266F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.cpp */; };
+		2423A75F20964E5E874E7A29 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.h */ = {isa = PBXBuildFile; fileRef = 71A54BBB08FC40B082D220B0 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.h */; };
+		2C98AEBB7FCF45CDB4E6AA83 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.cpp */ = {isa = PBXBuildFile; fileRef = 9A156C4EBD2142758837A9A1 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.cpp */; };
+		2DCC0BF097744E0AABB7201F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 079ECF214E5740EB8BF87343 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/mocs_compilation.cpp */; };
+		2E3C553FED524D1488519ACB /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.cpp */ = {isa = PBXBuildFile; fileRef = 3CE21783613348A7B7D794AD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.cpp */; };
+		3E6A837BCC0846F2981016A4 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.h */ = {isa = PBXBuildFile; fileRef = BC436841CD7F4F46B8C715F8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.h */; };
+		3F4E2208C6364617A3B27EDB /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.h */ = {isa = PBXBuildFile; fileRef = CCC93EC645794F889DD61C19 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.h */; };
+		4D47ABDE1B40488C92CA517D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.h */ = {isa = PBXBuildFile; fileRef = 5237228C031A42D090244583 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.h */; };
+		50EEB4F9C172421C818C4652 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.h */ = {isa = PBXBuildFile; fileRef = F681BA2D76274A4B9290B3D9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.h */; };
+		52AA8FAD476648BB8AF1EC1F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.cpp */ = {isa = PBXBuildFile; fileRef = 41C0C7C4C5FA4855AEEF50C9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.cpp */; };
+		53D000A41AFA45BDABB091D8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.h */ = {isa = PBXBuildFile; fileRef = E189693EBAB442B8A247AD6F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.h */; };
+		557F8CE00AC4459CBA1BF02C /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.h */ = {isa = PBXBuildFile; fileRef = 65A4675591DF45B7A90C3207 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.h */; };
+		62D6290BF19544C69CDCCF83 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/source2cpp.py */ = {isa = PBXBuildFile; fileRef = EDCDE9EE8EBD488AA61FC3AD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/source2cpp.py */; };
+		6423403531B74BE69FD98D4F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.cpp */ = {isa = PBXBuildFile; fileRef = F36B6FE0B9CB4EF1B1C64EC4 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.cpp */; };
+		649C768B6D2748769DC2712D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.cpp */ = {isa = PBXBuildFile; fileRef = E82F07225A0D41A68C85DA54 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.cpp */; };
+		661A90C0DD6046D8902FE22D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B9ED6C3C2FC1411B8F8F0555 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/CMakeLists.txt */; };
+		67157BAC11454428BE5A3A2B /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.cpp */ = {isa = PBXBuildFile; fileRef = D21384064BCD41E6B7516B8C /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.cpp */; };
+		678958B9C87D4997BCAF475D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.h */ = {isa = PBXBuildFile; fileRef = 1E8C0917E9D04C2B962B581C /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.h */; };
+		6A6FC201D65E4DF8BDA5B278 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5A284DD180574904BB6C4AA2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */; };
+		6CBCCBC29B0E4D07BFA54105 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.h */ = {isa = PBXBuildFile; fileRef = B1D1439330864590ABE16D95 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.h */; };
+		73040F1FBC2F497B81703AC3 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.h */ = {isa = PBXBuildFile; fileRef = 45F2CB37FD104A0EB3DF4121 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.h */; };
+		74D40AA22B4D4CDA84F4C0B5 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/common/basic_types.h */ = {isa = PBXBuildFile; fileRef = 289C9714B01B48D19316B623 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/common/basic_types.h */; };
+		7828F217B5094FF3B2F1110E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.cpp */ = {isa = PBXBuildFile; fileRef = 45F605C992184789AAE116BE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.cpp */; };
+		7A65712AB38941CE8123340F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.h */ = {isa = PBXBuildFile; fileRef = D9C97A4185514FF5A8F28B85 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.h */; };
+		7BF1132FD157440CBC27A776 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.cpp */ = {isa = PBXBuildFile; fileRef = AEB754C2AFA4409FB5CE4D68 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.cpp */; };
+		7D659023DEEB4D3A98F6CBA8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.cpp */ = {isa = PBXBuildFile; fileRef = F975A7EF409149278A035619 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.cpp */; };
+		7DD4AF75D13D4225BD7D2D1E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.h */ = {isa = PBXBuildFile; fileRef = BC405095EF2244DE9DAC3B1D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.h */; };
+		837EAECCEBE3447DA4302F64 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.cpp */ = {isa = PBXBuildFile; fileRef = 777734AA3BA041AD9C555950 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.cpp */; };
+		88A45C89D0B544E383165463 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.cpp */ = {isa = PBXBuildFile; fileRef = 96B6819F5CE846E3A135070E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.cpp */; };
+		9858A842E6EC489B821FCF21 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.h */ = {isa = PBXBuildFile; fileRef = 6DA6BB6A49E148ED81F1D4BC /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.h */; };
+		98F0099DEA244716A9CFBB34 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.h */ = {isa = PBXBuildFile; fileRef = 2FC19D88D09A441E99933892 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.h */; };
+		A4961F36083346F38BD1DD7D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/main.cpp */ = {isa = PBXBuildFile; fileRef = EBAF1F5291AB4414B054D560 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/main.cpp */; };
+		A5D7708EA8D44CFDA0E6B95B /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.cpp */ = {isa = PBXBuildFile; fileRef = 2848637D3FF64DEEBBFCF57A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.cpp */; };
+		A60A7FBD229147BEB78403BD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.cpp */ = {isa = PBXBuildFile; fileRef = A253544B02714BDB9CC73905 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.cpp */; };
+		B08417F04DCC469ABB5A0154 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp */ = {isa = PBXBuildFile; fileRef = 4722EA90AE854D01BF386541 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp */; };
+		BBF49FB23E514C6293CD2D99 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.cpp */ = {isa = PBXBuildFile; fileRef = 0052BEEE62BB411B999FF643 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.cpp */; };
+		BEBE9BB9F00644AAB61C9EA5 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.h */ = {isa = PBXBuildFile; fileRef = 6A8C20BAE1DA41EAB19BA312 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.h */; };
+		C322D28A6EE1409784A5F217 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.cpp */ = {isa = PBXBuildFile; fileRef = E7CED9A6757E4E86B249E05D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.cpp */; };
+		C34763B9C4ED4B1A9229753D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.h */ = {isa = PBXBuildFile; fileRef = CE061B518F8E4B21B7B05821 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.h */; };
+		CBFAB058B78C4F9EB82C3E95 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.cpp */ = {isa = PBXBuildFile; fileRef = E4DEAABADBA341EF87623F35 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.cpp */; };
+		D2B4E58E694447A3A4C20C96 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1C3E5DCF875B4378874C0389 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */; };
+		D2E6C0B1DA5E43D29A40E7BA /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.cpp */ = {isa = PBXBuildFile; fileRef = 1212EC93CC364C1E9C875181 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.cpp */; };
+		D492EC306646407295FC34FE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.cpp */ = {isa = PBXBuildFile; fileRef = 5B605EBE72B24AD7A674C614 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.cpp */; };
+		E6F14274AC57426FB64DE5CD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.cpp */ = {isa = PBXBuildFile; fileRef = 7066A2822C194C8D9781CAC2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.cpp */; };
+		EC50D14F9DDC47189F229805 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.cpp */ = {isa = PBXBuildFile; fileRef = 836EBCECD60C42C3A9D91EF2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.cpp */; };
+		EE5AFB41D3004D09B5B2DD9B /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.h */ = {isa = PBXBuildFile; fileRef = 29B21DE2DF584AE7B195C135 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.h */; };
+		EEF0BA8F34C74E41AC9D85B7 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.h */ = {isa = PBXBuildFile; fileRef = D7E6139675804BDFA821E512 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.h */; };
+		F232E0C42AA147CFBBFEE00E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.h */ = {isa = PBXBuildFile; fileRef = B5F56E6EF54746A5B53384C5 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.h */; };
+		F47F2FC059124E3DBA3C63EC /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.h */ = {isa = PBXBuildFile; fileRef = 4F1D6B2564E042C48DCA377F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.h */; };
+		F7568930C5054AB792E5FBE6 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.h */ = {isa = PBXBuildFile; fileRef = E39BB87923A24767877FEFD6 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.h */; };
+		FF7EA17D6FFA4BE19921FFDD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.h */ = {isa = PBXBuildFile; fileRef = 94F4BE87EDC14121A46CA6E5 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		15EBE307587A420DBE93B223 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		26B903797EC74FD5841E0D66 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		326A7701B2DC4AD6BBC20836 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C3EBBFE8AF484F75A57C1B3D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0B62BE5914F24EE0B33EB430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71DD13E429B4FE39C80C65E;
+			remoteInfo = terviewer;
+		};
+		24F019E3D82F4829A5B2A3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2D7C4E3B314D39AB1296DA;
+			remoteInfo = vgui_autogen;
+		};
+		29FB890597E948AC91E34A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9CFC8F2ECF4CF6B7ECE922;
+			remoteInfo = ZERO_CHECK;
+		};
+		2D0A15963AD248B0AE57D07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9CFC8F2ECF4CF6B7ECE922;
+			remoteInfo = ZERO_CHECK;
+		};
+		2E5459161963449BBDFF806B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395F7F2647804BDE85A1A56B;
+			remoteInfo = vgui;
+		};
+		3D0DAB4ABDF44F60B28A9275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3D9437C9D44B61914156E7;
+			remoteInfo = common;
+		};
+		720CEB2316304F34B848A397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9CFC8F2ECF4CF6B7ECE922;
+			remoteInfo = ZERO_CHECK;
+		};
+		7AC774E531384832B4118FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9CFC8F2ECF4CF6B7ECE922;
+			remoteInfo = ZERO_CHECK;
+		};
+		9D9B30EDB34F4D008C6A98E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9CFC8F2ECF4CF6B7ECE922;
+			remoteInfo = ZERO_CHECK;
+		};
+		B05F05A47D71408991DC2161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395F7F2647804BDE85A1A56B;
+			remoteInfo = vgui;
+		};
+		B8AA38D6FA1F48A2ACB15A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3D9437C9D44B61914156E7;
+			remoteInfo = common;
+		};
+		BB5A6C5858D94F0BB1A7B722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3D9437C9D44B61914156E7;
+			remoteInfo = common;
+		};
+		BDCAC1156F7E451F98AF4CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395F7F2647804BDE85A1A56B;
+			remoteInfo = vgui;
+		};
+		F0F9E9323B2E4BB794BB2413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2737E7FE1AE34557A38E5313;
+			remoteInfo = terviewer_autogen;
+		};
+		F2F40FAAEEF94BF086630A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3D9437C9D44B61914156E7;
+			remoteInfo = common;
+		};
+		F59E2D9236F743168771E22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9CFC8F2ECF4CF6B7ECE922;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0052BEEE62BB411B999FF643 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = progress.cpp; path = common/progress.cpp; sourceTree = SOURCE_ROOT; };
+		079ECF214E5740EB8BF87343 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = xcode/terviewer/terviewer_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		09B86CDFE89D47AA98F849E9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = terviewer/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1212EC93CC364C1E9C875181 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = common/timer.cpp; sourceTree = SOURCE_ROOT; };
+		1C3E5DCF875B4378874C0389 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = terviewer/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1D981525890F450F9CFA8D2E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = noisefield.cpp; path = terviewer/noisefield.cpp; sourceTree = SOURCE_ROOT; };
+		1E8C0917E9D04C2B962B581C /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mathutils.h; path = common/mathutils.h; sourceTree = SOURCE_ROOT; };
+		22980A10FEC9433897EDA3D0 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = xcode/terviewer/vgui_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		230AF562C5F04AB2BA4859A4 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = data_importer.cpp; path = ../data_importer/data_importer.cpp; sourceTree = SOURCE_ROOT; };
+		2848637D3FF64DEEBBFCF57A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = region.cpp; path = common/region.cpp; sourceTree = SOURCE_ROOT; };
+		289C9714B01B48D19316B623 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/common/basic_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = basic_types.h; path = ../common/basic_types.h; sourceTree = SOURCE_ROOT; };
+		29B21DE2DF584AE7B195C135 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stats.h; path = common/stats.h; sourceTree = SOURCE_ROOT; };
+		2FC19D88D09A441E99933892 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = view.h; path = terviewer/view.h; sourceTree = SOURCE_ROOT; };
+		3CE21783613348A7B7D794AD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = volcano.cpp; path = terviewer/volcano.cpp; sourceTree = SOURCE_ROOT; };
+		41C0C7C4C5FA4855AEEF50C9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = initialize.cpp; path = common/initialize.cpp; sourceTree = SOURCE_ROOT; };
+		45F2CB37FD104A0EB3DF4121 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shape.h; path = terviewer/shape.h; sourceTree = SOURCE_ROOT; };
+		45F605C992184789AAE116BE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = typemap.cpp; path = terviewer/typemap.cpp; sourceTree = SOURCE_ROOT; };
+		4722EA90AE854D01BF386541 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = source2cpp.cpp; path = xcode/common/source2cpp.cpp; sourceTree = SOURCE_ROOT; };
+		4F1D6B2564E042C48DCA377F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = volcano.h; path = terviewer/volcano.h; sourceTree = SOURCE_ROOT; };
+		4F61D40C879B40E2A30D5326 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5237228C031A42D090244583 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vecpnt.h; path = terviewer/vecpnt.h; sourceTree = SOURCE_ROOT; };
+		5868414B5D92461680D4027E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mathutils.cpp; path = common/mathutils.cpp; sourceTree = SOURCE_ROOT; };
+		5A284DD180574904BB6C4AA2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = terviewer/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5B605EBE72B24AD7A674C614 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = terrain.cpp; path = terviewer/terrain.cpp; sourceTree = SOURCE_ROOT; };
+		617825C629DD45C09A8E4AF8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = progress.h; path = common/progress.h; sourceTree = SOURCE_ROOT; };
+		65A4675591DF45B7A90C3207 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = descriptor.h; path = terviewer/descriptor.h; sourceTree = SOURCE_ROOT; };
+		6A8C20BAE1DA41EAB19BA312 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = window.h; path = terviewer/window.h; sourceTree = SOURCE_ROOT; };
+		6DA6BB6A49E148ED81F1D4BC /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = waterfill.h; path = terviewer/waterfill.h; sourceTree = SOURCE_ROOT; };
+		7066A2822C194C8D9781CAC2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = window.cpp; path = terviewer/window.cpp; sourceTree = SOURCE_ROOT; };
+		71A54BBB08FC40B082D220B0 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = region.h; path = common/region.h; sourceTree = SOURCE_ROOT; };
+		777734AA3BA041AD9C555950 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dice_roller.cpp; path = terviewer/dice_roller.cpp; sourceTree = SOURCE_ROOT; };
+		819FA0D1F17343CBBBA465AC /* terviewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = terviewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		836EBCECD60C42C3A9D91EF2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glwidget.cpp; path = terviewer/glwidget.cpp; sourceTree = SOURCE_ROOT; };
+		91B5FCB764AA4B478DFE75FF /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = common/timer.h; sourceTree = SOURCE_ROOT; };
+		936EF12B62884DC481FF2A04 /* common */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F4BE87EDC14121A46CA6E5 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = noisefield.h; path = terviewer/noisefield.h; sourceTree = SOURCE_ROOT; };
+		96B6819F5CE846E3A135070E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shaderProgram.cpp; path = terviewer/shaderProgram.cpp; sourceTree = SOURCE_ROOT; };
+		99DB84A079CF418BA0A0D47A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = palette.cpp; path = terviewer/palette.cpp; sourceTree = SOURCE_ROOT; };
+		9A156C4EBD2142758837A9A1 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = descriptor.cpp; path = terviewer/descriptor.cpp; sourceTree = SOURCE_ROOT; };
+		A253544B02714BDB9CC73905 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = terviewer/timer.cpp; sourceTree = SOURCE_ROOT; };
+		AEB754C2AFA4409FB5CE4D68 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vecpnt.cpp; path = terviewer/vecpnt.cpp; sourceTree = SOURCE_ROOT; };
+		B0DC0CEA0EA9477DBBE7A7DE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = terviewer/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B1D1439330864590ABE16D95 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = terrain.h; path = terviewer/terrain.h; sourceTree = SOURCE_ROOT; };
+		B25F1D6B1EFF487CAD87C6FE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stroke.h; path = terviewer/stroke.h; sourceTree = SOURCE_ROOT; };
+		B5F56E6EF54746A5B53384C5 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = initialize.h; path = common/initialize.h; sourceTree = SOURCE_ROOT; };
+		B929E0204B5641C985CCF605 /* vgui */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libvgui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9ED6C3C2FC1411B8F8F0555 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = common/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BC405095EF2244DE9DAC3B1D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh.h; path = terviewer/mesh.h; sourceTree = SOURCE_ROOT; };
+		BC436841CD7F4F46B8C715F8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trenderer.h; path = terviewer/trenderer.h; sourceTree = SOURCE_ROOT; };
+		BEDC8A30F5B34A5EA74FFCC1 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = palette.h; path = terviewer/palette.h; sourceTree = SOURCE_ROOT; };
+		CCC93EC645794F889DD61C19 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dice_roller.h; path = terviewer/dice_roller.h; sourceTree = SOURCE_ROOT; };
+		CE061B518F8E4B21B7B05821 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shaderProgram.h; path = terviewer/shaderProgram.h; sourceTree = SOURCE_ROOT; };
+		D21384064BCD41E6B7516B8C /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shape.cpp; path = terviewer/shape.cpp; sourceTree = SOURCE_ROOT; };
+		D7E6139675804BDFA821E512 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glwidget.h; path = terviewer/glwidget.h; sourceTree = SOURCE_ROOT; };
+		D9C97A4185514FF5A8F28B85 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = terviewer/timer.h; sourceTree = SOURCE_ROOT; };
+		E189693EBAB442B8A247AD6F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = typemap.h; path = terviewer/typemap.h; sourceTree = SOURCE_ROOT; };
+		E39BB87923A24767877FEFD6 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = data_importer.h; path = ../data_importer/data_importer.h; sourceTree = SOURCE_ROOT; };
+		E4DEAABADBA341EF87623F35 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = waterfill.cpp; path = terviewer/waterfill.cpp; sourceTree = SOURCE_ROOT; };
+		E5B839EDFE2244099B20266F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stats.cpp; path = common/stats.cpp; sourceTree = SOURCE_ROOT; };
+		E7CED9A6757E4E86B249E05D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = view.cpp; path = terviewer/view.cpp; sourceTree = SOURCE_ROOT; };
+		E82F07225A0D41A68C85DA54 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = trenderer.cpp; path = terviewer/trenderer.cpp; sourceTree = SOURCE_ROOT; };
+		EBAF1F5291AB4414B054D560 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = terviewer/main.cpp; sourceTree = SOURCE_ROOT; };
+		EDCDE9EE8EBD488AA61FC3AD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/source2cpp.py */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = source2cpp.py; path = common/source2cpp.py; sourceTree = SOURCE_ROOT; };
+		F36B6FE0B9CB4EF1B1C64EC4 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh.cpp; path = terviewer/mesh.cpp; sourceTree = SOURCE_ROOT; };
+		F681BA2D76274A4B9290B3D9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cnpy.h; path = common/cnpy.h; sourceTree = SOURCE_ROOT; };
+		F975A7EF409149278A035619 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stroke.cpp; path = terviewer/stroke.cpp; sourceTree = SOURCE_ROOT; };
+		FAFC7DF845B34681837D661E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cnpy.cpp; path = common/cnpy.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EC1DD07EE140808E28BAC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85CBD44A2BD4B2BBF275284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD25E48677F543A78D69705D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219779361F8C40A78BA300B0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2B315A1506BD46208FB129B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		367876A1C9064B95B4B69C8B /* vgui_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				D4607D291DE34777B6B7C245 /* CMake Rules */,
+				09B86CDFE89D47AA98F849E9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */,
+			);
+			name = vgui_autogen;
+			sourceTree = "<group>";
+		};
+		66799DF452D4423CA2059577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936EF12B62884DC481FF2A04 /* common */,
+				819FA0D1F17343CBBBA465AC /* terviewer */,
+				B929E0204B5641C985CCF605 /* vgui */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6822F6114B33496A9F0BFD61 /* vgui */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E205032B2465CAC650770 /* Source Files */,
+				AF5A35CB4C06425D810CBB7D /* Header Files */,
+				1C3E5DCF875B4378874C0389 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */,
+			);
+			name = vgui;
+			sourceTree = "<group>";
+		};
+		6EABF90298B54BD5A163F9C1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				918074C5142144A6B6D7ADF8 /* Source Files */,
+				9C8496DCC06A47B7B9F326CA /* Header Files */,
+				B9ED6C3C2FC1411B8F8F0555 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/CMakeLists.txt */,
+				EDCDE9EE8EBD488AA61FC3AD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/source2cpp.py */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		7B6990EFCCD4420E85906C87 = {
+			isa = PBXGroup;
+			children = (
+				D68F7ED07CFA49CB9228B0F7 /* ALL_BUILD */,
+				6EABF90298B54BD5A163F9C1 /* common */,
+				6822F6114B33496A9F0BFD61 /* vgui */,
+				B24437D87B594AEDABC8BEB9 /* terviewer */,
+				367876A1C9064B95B4B69C8B /* vgui_autogen */,
+				D4A5AEBE76AD4FDD8BAE507F /* terviewer_autogen */,
+				66799DF452D4423CA2059577 /* Products */,
+				2B315A1506BD46208FB129B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		918074C5142144A6B6D7ADF8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC7DF845B34681837D661E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.cpp */,
+				41C0C7C4C5FA4855AEEF50C9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.cpp */,
+				5868414B5D92461680D4027E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.cpp */,
+				0052BEEE62BB411B999FF643 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.cpp */,
+				2848637D3FF64DEEBBFCF57A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.cpp */,
+				E5B839EDFE2244099B20266F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.cpp */,
+				1212EC93CC364C1E9C875181 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.cpp */,
+				4722EA90AE854D01BF386541 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9C8496DCC06A47B7B9F326CA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F681BA2D76274A4B9290B3D9 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.h */,
+				B5F56E6EF54746A5B53384C5 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.h */,
+				1E8C0917E9D04C2B962B581C /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.h */,
+				617825C629DD45C09A8E4AF8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.h */,
+				71A54BBB08FC40B082D220B0 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.h */,
+				29B21DE2DF584AE7B195C135 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.h */,
+				91B5FCB764AA4B478DFE75FF /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AF5A35CB4C06425D810CBB7D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				289C9714B01B48D19316B623 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/common/basic_types.h */,
+				E39BB87923A24767877FEFD6 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.h */,
+				65A4675591DF45B7A90C3207 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.h */,
+				CCC93EC645794F889DD61C19 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.h */,
+				D7E6139675804BDFA821E512 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.h */,
+				BC405095EF2244DE9DAC3B1D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.h */,
+				94F4BE87EDC14121A46CA6E5 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.h */,
+				BEDC8A30F5B34A5EA74FFCC1 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.h */,
+				CE061B518F8E4B21B7B05821 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.h */,
+				45F2CB37FD104A0EB3DF4121 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.h */,
+				B25F1D6B1EFF487CAD87C6FE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.h */,
+				B1D1439330864590ABE16D95 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.h */,
+				D9C97A4185514FF5A8F28B85 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.h */,
+				BC436841CD7F4F46B8C715F8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.h */,
+				E189693EBAB442B8A247AD6F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.h */,
+				5237228C031A42D090244583 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.h */,
+				2FC19D88D09A441E99933892 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.h */,
+				4F1D6B2564E042C48DCA377F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.h */,
+				6DA6BB6A49E148ED81F1D4BC /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.h */,
+				6A8C20BAE1DA41EAB19BA312 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B24437D87B594AEDABC8BEB9 /* terviewer */ = {
+			isa = PBXGroup;
+			children = (
+				E86685D9B2E540578AAB7A3C /* Source Files */,
+				5A284DD180574904BB6C4AA2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */,
+			);
+			name = terviewer;
+			sourceTree = "<group>";
+		};
+		BC2E205032B2465CAC650770 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				230AF562C5F04AB2BA4859A4 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.cpp */,
+				9A156C4EBD2142758837A9A1 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.cpp */,
+				777734AA3BA041AD9C555950 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.cpp */,
+				836EBCECD60C42C3A9D91EF2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.cpp */,
+				F36B6FE0B9CB4EF1B1C64EC4 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.cpp */,
+				1D981525890F450F9CFA8D2E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.cpp */,
+				99DB84A079CF418BA0A0D47A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.cpp */,
+				96B6819F5CE846E3A135070E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.cpp */,
+				D21384064BCD41E6B7516B8C /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.cpp */,
+				F975A7EF409149278A035619 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.cpp */,
+				5B605EBE72B24AD7A674C614 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.cpp */,
+				A253544B02714BDB9CC73905 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.cpp */,
+				E82F07225A0D41A68C85DA54 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.cpp */,
+				45F605C992184789AAE116BE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.cpp */,
+				AEB754C2AFA4409FB5CE4D68 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.cpp */,
+				E7CED9A6757E4E86B249E05D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.cpp */,
+				3CE21783613348A7B7D794AD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.cpp */,
+				E4DEAABADBA341EF87623F35 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.cpp */,
+				7066A2822C194C8D9781CAC2 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.cpp */,
+				22980A10FEC9433897EDA3D0 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D1C9833877AC44A995E8E794 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D4607D291DE34777B6B7C245 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D4A5AEBE76AD4FDD8BAE507F /* terviewer_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				219779361F8C40A78BA300B0 /* CMake Rules */,
+				B0DC0CEA0EA9477DBBE7A7DE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt */,
+			);
+			name = terviewer_autogen;
+			sourceTree = "<group>";
+		};
+		D68F7ED07CFA49CB9228B0F7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D1C9833877AC44A995E8E794 /* CMake Rules */,
+				4F61D40C879B40E2A30D5326 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E86685D9B2E540578AAB7A3C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBAF1F5291AB4414B054D560 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/main.cpp */,
+				079ECF214E5740EB8BF87343 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		395F7F2647804BDE85A1A56B /* vgui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F636EB86D64B05B4AB438B /* Build configuration list for PBXNativeTarget "vgui" */;
+			buildPhases = (
+				A3D4A3A9F4C84852B45E8EB6 /* Sources */,
+				DD25E48677F543A78D69705D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE6DDC9B27E84235A6234DA7 /* PBXTargetDependency */,
+				83DF6241207847DDBA123F32 /* PBXTargetDependency */,
+				5B9F5B621225454288C881A1 /* PBXTargetDependency */,
+			);
+			name = vgui;
+			productName = vgui;
+			productReference = B929E0204B5641C985CCF605 /* vgui */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF3D9437C9D44B61914156E7 /* common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF957307B944C5794595A8A /* Build configuration list for PBXNativeTarget "common" */;
+			buildPhases = (
+				7FEF4D537303832EF910DC18 /* Generate common/source2cpp.cpp */,
+				1B6D857F67D24E64992F38EE /* Sources */,
+				D85CBD44A2BD4B2BBF275284 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B2E1F652DF4CDEBD538746 /* PBXTargetDependency */,
+			);
+			name = common;
+			productName = common;
+			productReference = 936EF12B62884DC481FF2A04 /* common */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F71DD13E429B4FE39C80C65E /* terviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CC1B267A384EDA96BB434C /* Build configuration list for PBXNativeTarget "terviewer" */;
+			buildPhases = (
+				3C5799C21FBD4180AA085B0E /* Sources */,
+				30EC1DD07EE140808E28BAC5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF6712BEF8F45A18E795E40 /* PBXTargetDependency */,
+				F5248B3660134D2A88F1B83C /* PBXTargetDependency */,
+				A5E38146B83445449C420720 /* PBXTargetDependency */,
+				20E3087472C44D5A93F22637 /* PBXTargetDependency */,
+			);
+			name = terviewer;
+			productName = terviewer;
+			productReference = 819FA0D1F17343CBBBA465AC /* terviewer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62BC4C8FD7F4C54B6CEBD30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 82574C74AA0F462FA2E522A1 /* Build configuration list for PBXProject "TerViewer" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				326A7701B2DC4AD6BBC20836 /* Debug */,
+				15EBE307587A420DBE93B223 /* Release */,
+				26B903797EC74FD5841E0D66 /* MinSizeRel */,
+				C3EBBFE8AF484F75A57C1B3D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7B6990EFCCD4420E85906C87;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				E76209E7ED4D4F6D8F8BFAB9 /* ALL_BUILD */,
+				465977371B9142DCBE57B060 /* RUN_TESTS */,
+				3D9CFC8F2ECF4CF6B7ECE922 /* ZERO_CHECK */,
+				CF3D9437C9D44B61914156E7 /* common */,
+				F71DD13E429B4FE39C80C65E /* terviewer */,
+				2737E7FE1AE34557A38E5313 /* terviewer_autogen */,
+				395F7F2647804BDE85A1A56B /* vgui */,
+				EB2D7C4E3B314D39AB1296DA /* vgui_autogen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003C8D08B0008F35F218E126 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2AC5051A63E6E8AC0EE940BA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		391D0E5CB95D2D3047C6CF6C /* Generate terviewer/CMakeFiles/terviewer_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate terviewer/CMakeFiles/terviewer_autogen";
+			outputPaths = (
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/terviewer_autogen,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/mocs_compilation.cpp			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_autogen /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/terviewer_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_autogen /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/terviewer_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_autogen /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/terviewer_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_autogen /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/terviewer_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4B98F97EC670161C9454AF89 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7FEF4D537303832EF910DC18 /* Generate common/source2cpp.cpp */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/source2cpp.py,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/basic.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/basic.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/canopy.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/canopy.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/genNormal.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/genNormal.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/phong.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/phong.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/phongRS.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/phongRS.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/phongRSmanip.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/phongRSmanip.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/rad_scaling_pass1.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/rad_scaling_pass1.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/rad_scaling_pass2.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/rad_scaling_pass2.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/simple.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/simple.vert,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/sun.frag,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaders/sun.vert			);
+			name = "Generate common/source2cpp.cpp";
+			outputPaths = (
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common
+  /opt/homebrew/Caskroom/miniforge/base/bin/python source2cpp.py ../terviewer/shaders/basic.vert ../terviewer/shaders/basic.frag ../terviewer/shaders/genNormal.vert ../terviewer/shaders/genNormal.frag ../terviewer/shaders/simple.vert ../terviewer/shaders/simple.frag ../terviewer/shaders/phong.vert ../terviewer/shaders/phong.frag ../terviewer/shaders/phongRS.vert ../terviewer/shaders/phongRS.frag ../terviewer/shaders/phongRSmanip.vert ../terviewer/shaders/phongRSmanip.frag ../terviewer/shaders/rad_scaling_pass1.vert ../terviewer/shaders/rad_scaling_pass1.frag ../terviewer/shaders/rad_scaling_pass2.vert ../terviewer/shaders/rad_scaling_pass2.frag ../terviewer/shaders/sun.vert ../terviewer/shaders/sun.frag ../terviewer/shaders/canopy.vert ../terviewer/shaders/canopy.frag /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common
+  /opt/homebrew/Caskroom/miniforge/base/bin/python source2cpp.py ../terviewer/shaders/basic.vert ../terviewer/shaders/basic.frag ../terviewer/shaders/genNormal.vert ../terviewer/shaders/genNormal.frag ../terviewer/shaders/simple.vert ../terviewer/shaders/simple.frag ../terviewer/shaders/phong.vert ../terviewer/shaders/phong.frag ../terviewer/shaders/phongRS.vert ../terviewer/shaders/phongRS.frag ../terviewer/shaders/phongRSmanip.vert ../terviewer/shaders/phongRSmanip.frag ../terviewer/shaders/rad_scaling_pass1.vert ../terviewer/shaders/rad_scaling_pass1.frag ../terviewer/shaders/rad_scaling_pass2.vert ../terviewer/shaders/rad_scaling_pass2.frag ../terviewer/shaders/sun.vert ../terviewer/shaders/sun.frag ../terviewer/shaders/canopy.vert ../terviewer/shaders/canopy.frag /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common
+  /opt/homebrew/Caskroom/miniforge/base/bin/python source2cpp.py ../terviewer/shaders/basic.vert ../terviewer/shaders/basic.frag ../terviewer/shaders/genNormal.vert ../terviewer/shaders/genNormal.frag ../terviewer/shaders/simple.vert ../terviewer/shaders/simple.frag ../terviewer/shaders/phong.vert ../terviewer/shaders/phong.frag ../terviewer/shaders/phongRS.vert ../terviewer/shaders/phongRS.frag ../terviewer/shaders/phongRSmanip.vert ../terviewer/shaders/phongRSmanip.frag ../terviewer/shaders/rad_scaling_pass1.vert ../terviewer/shaders/rad_scaling_pass1.frag ../terviewer/shaders/rad_scaling_pass2.vert ../terviewer/shaders/rad_scaling_pass2.frag ../terviewer/shaders/sun.vert ../terviewer/shaders/sun.frag ../terviewer/shaders/canopy.vert ../terviewer/shaders/canopy.frag /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common
+  /opt/homebrew/Caskroom/miniforge/base/bin/python source2cpp.py ../terviewer/shaders/basic.vert ../terviewer/shaders/basic.frag ../terviewer/shaders/genNormal.vert ../terviewer/shaders/genNormal.frag ../terviewer/shaders/simple.vert ../terviewer/shaders/simple.frag ../terviewer/shaders/phong.vert ../terviewer/shaders/phong.frag ../terviewer/shaders/phongRS.vert ../terviewer/shaders/phongRS.frag ../terviewer/shaders/phongRSmanip.vert ../terviewer/shaders/phongRSmanip.frag ../terviewer/shaders/rad_scaling_pass1.vert ../terviewer/shaders/rad_scaling_pass1.frag ../terviewer/shaders/rad_scaling_pass2.vert ../terviewer/shaders/rad_scaling_pass2.frag ../terviewer/shaders/sun.vert ../terviewer/shaders/sun.frag ../terviewer/shaders/canopy.vert ../terviewer/shaders/canopy.frag /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		910A41151295C5F9742C25BD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9DBDE7656E45739BD8A2D934 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  make -f /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  make -f /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  make -f /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode
+  make -f /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		CAC5D079DDD801F3D3768714 /* Generate terviewer/CMakeFiles/vgui_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate terviewer/CMakeFiles/vgui_autogen";
+			outputPaths = (
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/mocs_compilation.cpp			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_autogen /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenInfo.json Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_autogen /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenInfo.json Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_autogen /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenInfo.json MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer
+  /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E cmake_autogen /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenInfo.json RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E8C7666CB254A45E308798FF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B6D857F67D24E64992F38EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0D3F1CF53A4742B337731D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/cnpy.cpp */,
+				52AA8FAD476648BB8AF1EC1F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/initialize.cpp */,
+				01FB94AF55A248189AD3ECEE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/mathutils.cpp */,
+				BBF49FB23E514C6293CD2D99 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/progress.cpp */,
+				A5D7708EA8D44CFDA0E6B95B /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/region.cpp */,
+				22AF84A7308648D7B37946A3 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/stats.cpp */,
+				D2E6C0B1DA5E43D29A40E7BA /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/timer.cpp */,
+				B08417F04DCC469ABB5A0154 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/source2cpp.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5799C21FBD4180AA085B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4961F36083346F38BD1DD7D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/main.cpp */,
+				2DCC0BF097744E0AABB7201F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/mocs_compilation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4A3A9F4C84852B45E8EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D99C178329A47958AA1A640 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.cpp */,
+				2C98AEBB7FCF45CDB4E6AA83 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.cpp */,
+				837EAECCEBE3447DA4302F64 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.cpp */,
+				EC50D14F9DDC47189F229805 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.cpp */,
+				6423403531B74BE69FD98D4F /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.cpp */,
+				088F4544A0344CB98705876A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.cpp */,
+				14328EFAC4B04E1FAC77DE05 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.cpp */,
+				88A45C89D0B544E383165463 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.cpp */,
+				67157BAC11454428BE5A3A2B /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.cpp */,
+				7D659023DEEB4D3A98F6CBA8 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.cpp */,
+				D492EC306646407295FC34FE /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.cpp */,
+				A60A7FBD229147BEB78403BD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.cpp */,
+				649C768B6D2748769DC2712D /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.cpp */,
+				7828F217B5094FF3B2F1110E /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.cpp */,
+				7BF1132FD157440CBC27A776 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.cpp */,
+				C322D28A6EE1409784A5F217 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.cpp */,
+				2E3C553FED524D1488519ACB /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.cpp */,
+				CBFAB058B78C4F9EB82C3E95 /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.cpp */,
+				E6F14274AC57426FB64DE5CD /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.cpp */,
+				0740C91283DE4F9FBFB9464A /* /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/mocs_compilation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C5E8D50BC7447F6A35DE71D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3D9437C9D44B61914156E7 /* common */;
+			targetProxy = BB5A6C5858D94F0BB1A7B722 /* PBXContainerItemProxy */;
+		};
+		0CD4EACB9F4F4AD592E0DBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9CFC8F2ECF4CF6B7ECE922 /* ZERO_CHECK */;
+			targetProxy = 720CEB2316304F34B848A397 /* PBXContainerItemProxy */;
+		};
+		20E3087472C44D5A93F22637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9CFC8F2ECF4CF6B7ECE922 /* ZERO_CHECK */;
+			targetProxy = 2D0A15963AD248B0AE57D07B /* PBXContainerItemProxy */;
+		};
+		53909CDA84CC457FB1C16FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9CFC8F2ECF4CF6B7ECE922 /* ZERO_CHECK */;
+			targetProxy = 29FB890597E948AC91E34A8F /* PBXContainerItemProxy */;
+		};
+		5B9F5B621225454288C881A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9CFC8F2ECF4CF6B7ECE922 /* ZERO_CHECK */;
+			targetProxy = 9D9B30EDB34F4D008C6A98E4 /* PBXContainerItemProxy */;
+		};
+		83DF6241207847DDBA123F32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3D9437C9D44B61914156E7 /* common */;
+			targetProxy = B8AA38D6FA1F48A2ACB15A46 /* PBXContainerItemProxy */;
+		};
+		9CF6712BEF8F45A18E795E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2737E7FE1AE34557A38E5313 /* terviewer_autogen */;
+			targetProxy = F0F9E9323B2E4BB794BB2413 /* PBXContainerItemProxy */;
+		};
+		A5E38146B83445449C420720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395F7F2647804BDE85A1A56B /* vgui */;
+			targetProxy = B05F05A47D71408991DC2161 /* PBXContainerItemProxy */;
+		};
+		B3B2E1F652DF4CDEBD538746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9CFC8F2ECF4CF6B7ECE922 /* ZERO_CHECK */;
+			targetProxy = 7AC774E531384832B4118FFD /* PBXContainerItemProxy */;
+		};
+		BBCE8440BE1F41558DD2BD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71DD13E429B4FE39C80C65E /* terviewer */;
+			targetProxy = 0B62BE5914F24EE0B33EB430 /* PBXContainerItemProxy */;
+		};
+		C0D72C1820F74CB5A587E9B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395F7F2647804BDE85A1A56B /* vgui */;
+			targetProxy = BDCAC1156F7E451F98AF4CF3 /* PBXContainerItemProxy */;
+		};
+		DB8DF7E44BB44723A9CDDD72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9CFC8F2ECF4CF6B7ECE922 /* ZERO_CHECK */;
+			targetProxy = F59E2D9236F743168771E22C /* PBXContainerItemProxy */;
+		};
+		DE6DDC9B27E84235A6234DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2D7C4E3B314D39AB1296DA /* vgui_autogen */;
+			targetProxy = 24F019E3D82F4829A5B2A3F5 /* PBXContainerItemProxy */;
+		};
+		E588887EB6D14CBEBF008EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395F7F2647804BDE85A1A56B /* vgui */;
+			targetProxy = 2E5459161963449BBDFF806B /* PBXContainerItemProxy */;
+		};
+		EF44FDB6F4FA438AAEB68EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3D9437C9D44B61914156E7 /* common */;
+			targetProxy = F2F40FAAEEF94BF086630A21 /* PBXContainerItemProxy */;
+		};
+		F5248B3660134D2A88F1B83C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3D9437C9D44B61914156E7 /* common */;
+			targetProxy = 3D0DAB4ABDF44F60B28A9275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E44CBC234E4F18AB63B247 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,QT_NO_DEBUG,BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/include_RelWithDebInfo,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer /opt/homebrew/Cellar/glew/2.2.0_1/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common,"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh,"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,"/opt/homebrew/Cellar/glew/2.2.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/Cellar/glew/2.2.0_1/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations         -DNDEBUG -flto -fPIC '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -flto -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/RelWithDebInfo/libvgui.a,"-lsqlite3",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/RelWithDebInfo/libcommon.a,"/opt/homebrew/lib/libboost_serialization-mt.dylib","-lGLEW","-F /opt/homebrew/opt/qt@5/lib","-framework QtOpenGL","-framework QtWidgets","-framework QtGui","-framework QtCore","-framework OpenGL","/opt/homebrew/lib/libboost_program_options-mt.dylib",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terviewer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib","$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0D9D856CEA4E4D4A878FE9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		10D219ADFA644BA28554B6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		123B9028D04E4A6D8AD4132D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/build;
+			};
+			name = Debug;
+		};
+		21D5E5A9256942139BE413E8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		224DED89F2844EEF894BA488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/build;
+			};
+			name = Release;
+		};
+		296B3D4FE16D4A26A2EB70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		360A371B9BE647F6BF183B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vgui_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		56533AC362F2482ABEBECAEA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		579F897A032C44B682DC77ED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E444A0AE6624ABFA1280D67 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6F682C4712724AF1A32DE33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		71ECFAFC93754A76A3075A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terviewer_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		758E51B7B0004A70872D22F0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vgui_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		82576822380A4ACBA5F7DF79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8DCB7079A6F44022BD2B0DCF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations        -DNDEBUG -flto ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9C74A579E9A5461C8D6EE3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A56FD49EE2F74C04BE8691A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,QT_NO_DEBUG,BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include_Release,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations      -DNDEBUG -flto -fPIC '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib","$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B305B61EC8D34AD39697E14C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		B553B9C160B748A19D47CD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/include_Debug,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer /opt/homebrew/Cellar/glew/2.2.0_1/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common,"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh,"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,"/opt/homebrew/Cellar/glew/2.2.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/Cellar/glew/2.2.0_1/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations           -D_GLIBCXX_DEBUG -fPIC '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/Debug/libvgui.a,"-lsqlite3",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/Debug/libcommon.a,"/opt/homebrew/lib/libboost_serialization-mt.dylib","-lGLEW","-F /opt/homebrew/opt/qt@5/lib","-framework QtOpenGL","-framework QtWidgets","-framework QtGui","-framework QtCore","-framework OpenGL","/opt/homebrew/lib/libboost_program_options-mt.dylib",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terviewer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib","$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B5B74FC2865C42C0AFC6D8CD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,QT_NO_DEBUG,BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include_MinSizeRel,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations      -DNDEBUG -fPIC '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib","$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BBB9EC1047C94CBFB2D7D451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,QT_NO_DEBUG,BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/include_Release,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer /opt/homebrew/Cellar/glew/2.2.0_1/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common,"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh,"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,"/opt/homebrew/Cellar/glew/2.2.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/Cellar/glew/2.2.0_1/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations      -DNDEBUG -flto -fPIC '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -O4 -flto -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/Release/libvgui.a,"-lsqlite3",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/Release/libcommon.a,"/opt/homebrew/lib/libboost_serialization-mt.dylib","-lGLEW","-F /opt/homebrew/opt/qt@5/lib","-framework QtOpenGL","-framework QtWidgets","-framework QtGui","-framework QtCore","-framework OpenGL","/opt/homebrew/lib/libboost_program_options-mt.dylib",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terviewer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib","$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C9154E75142D4DA6A038D326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vgui_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CA563CBE268D4DD288CC1EB1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CBC260C9A2CC4EE08916B99B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D14C2EA04DB447B193C7E351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terviewer_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D19C8FEA6421479A86214CAC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,QT_NO_DEBUG,BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/terviewer_autogen/include_MinSizeRel,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer /opt/homebrew/Cellar/glew/2.2.0_1/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/common,"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/clh,"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,"/opt/homebrew/Cellar/glew/2.2.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/Cellar/glew/2.2.0_1/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations      -DNDEBUG -fPIC '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/MinSizeRel/libvgui.a,"-lsqlite3",/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/MinSizeRel/libcommon.a,"/opt/homebrew/lib/libboost_serialization-mt.dylib","-lGLEW","-F /opt/homebrew/opt/qt@5/lib","-framework QtOpenGL","-framework QtWidgets","-framework QtGui","-framework QtCore","-framework OpenGL","/opt/homebrew/lib/libboost_program_options-mt.dylib",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/lib/libz.tbd,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terviewer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib","$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D2476554B3FD432DA4B6B42E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terviewer_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DF89A211BE30453BB9A8390E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations     -DNDEBUG -flto ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E9D4A119F0B541958E932AAA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,QT_NO_DEBUG,BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include_RelWithDebInfo,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations         -DNDEBUG -flto -fPIC '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib","$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E9F1308F09C54F07803BCA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations          -D_GLIBCXX_DEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EA4A4260F9934F318EA05CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,BOOST_PROGRAM_OPTIONS_NO_LIB,BOOST_PROGRAM_OPTIONS_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include_Debug,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations           -D_GLIBCXX_DEBUG -fPIC '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vgui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib","$(inherited)");
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F5ECDE109615493B8E90EA3C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F78357E6B80642EBA6EFC715 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terviewer_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F79D21EACE714250928481EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = ("/opt/homebrew/opt/qt@5/lib",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'BOOST_FILESYSTEM_VERSION=3'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB,"'register='",BOOST_SERIALIZATION_NO_LIB,BOOST_SERIALIZATION_DYN_LINK,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer,/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers,"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers","/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers","/opt/homebrew/opt/qt@5/./mkspecs/macx-clang",/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/opt/homebrew/Cellar/glew/2.2.0_1/include,"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -Wno-enum-compare -Wno-deprecated-declarations     -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = common;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FAD2B083F00D451896980CE2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = vgui_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C32A5898A654A5AB208E5E7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D219ADFA644BA28554B6B7 /* Debug */,
+				CBC260C9A2CC4EE08916B99B /* Release */,
+				579F897A032C44B682DC77ED /* MinSizeRel */,
+				82576822380A4ACBA5F7DF79 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1C9D3694F23D4B9FAF8958C2 /* Build configuration list for PBXAggregateTarget "terviewer_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14C2EA04DB447B193C7E351 /* Debug */,
+				71ECFAFC93754A76A3075A46 /* Release */,
+				F78357E6B80642EBA6EFC715 /* MinSizeRel */,
+				D2476554B3FD432DA4B6B42E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		59CC1B267A384EDA96BB434C /* Build configuration list for PBXNativeTarget "terviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B553B9C160B748A19D47CD27 /* Debug */,
+				BBB9EC1047C94CBFB2D7D451 /* Release */,
+				D19C8FEA6421479A86214CAC /* MinSizeRel */,
+				00E44CBC234E4F18AB63B247 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A95821C71064F15BAD40CF9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C74A579E9A5461C8D6EE3D9 /* Debug */,
+				0D9D856CEA4E4D4A878FE9FE /* Release */,
+				F5ECDE109615493B8E90EA3C /* MinSizeRel */,
+				56533AC362F2482ABEBECAEA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		782F3B785C9E4233AA4B7A6E /* Build configuration list for PBXAggregateTarget "vgui_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360A371B9BE647F6BF183B6D /* Debug */,
+				C9154E75142D4DA6A038D326 /* Release */,
+				758E51B7B0004A70872D22F0 /* MinSizeRel */,
+				FAD2B083F00D451896980CE2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		82574C74AA0F462FA2E522A1 /* Build configuration list for PBXProject "TerViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123B9028D04E4A6D8AD4132D /* Debug */,
+				224DED89F2844EEF894BA488 /* Release */,
+				B305B61EC8D34AD39697E14C /* MinSizeRel */,
+				21D5E5A9256942139BE413E8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ADF957307B944C5794595A8A /* Build configuration list for PBXNativeTarget "common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F1308F09C54F07803BCA1A /* Debug */,
+				DF89A211BE30453BB9A8390E /* Release */,
+				F79D21EACE714250928481EB /* MinSizeRel */,
+				8DCB7079A6F44022BD2B0DCF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0F636EB86D64B05B4AB438B /* Build configuration list for PBXNativeTarget "vgui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4A4260F9934F318EA05CB7 /* Debug */,
+				A56FD49EE2F74C04BE8691A8 /* Release */,
+				B5B74FC2865C42C0AFC6D8CD /* MinSizeRel */,
+				E9D4A119F0B541958E932AAA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3FBE8485B0745108C66E126 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296B3D4FE16D4A26A2EB70AF /* Debug */,
+				6F682C4712724AF1A32DE33B /* Release */,
+				6E444A0AE6624ABFA1280D67 /* MinSizeRel */,
+				CA563CBE268D4DD288CC1EB1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62BC4C8FD7F4C54B6CEBD30 /* Project object */;
+}

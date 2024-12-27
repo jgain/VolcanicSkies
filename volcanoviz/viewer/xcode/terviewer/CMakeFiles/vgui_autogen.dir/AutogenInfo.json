@@ -1,0 +1,336 @@
+{
+	"BUILD_DIR" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer",
+	"CMAKE_EXECUTABLE" : "/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/CMakeLists.txt"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/common/basic_types.h",
+			"Mu",
+			"KAMNZBJ5TV/moc_basic_types.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.h",
+			"Mu",
+			"YQC3BUK7EH/moc_data_importer.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.h",
+			"Mu",
+			"EWIEGA46WW/moc_descriptor.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.h",
+			"Mu",
+			"EWIEGA46WW/moc_dice_roller.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.h",
+			"Mu",
+			"EWIEGA46WW/moc_glwidget.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.h",
+			"Mu",
+			"EWIEGA46WW/moc_mesh.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.h",
+			"Mu",
+			"EWIEGA46WW/moc_noisefield.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.h",
+			"Mu",
+			"EWIEGA46WW/moc_palette.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.h",
+			"Mu",
+			"EWIEGA46WW/moc_shaderProgram.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.h",
+			"Mu",
+			"EWIEGA46WW/moc_shape.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.h",
+			"Mu",
+			"EWIEGA46WW/moc_stroke.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.h",
+			"Mu",
+			"EWIEGA46WW/moc_terrain.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.h",
+			"Mu",
+			"EWIEGA46WW/moc_timer.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.h",
+			"Mu",
+			"EWIEGA46WW/moc_trenderer.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.h",
+			"Mu",
+			"EWIEGA46WW/moc_typemap.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.h",
+			"Mu",
+			"EWIEGA46WW/moc_vecpnt.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.h",
+			"Mu",
+			"EWIEGA46WW/moc_view.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.h",
+			"Mu",
+			"EWIEGA46WW/moc_volcano.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.h",
+			"Mu",
+			"EWIEGA46WW/moc_waterfill.cpp",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.h",
+			"Mu",
+			"EWIEGA46WW/moc_window.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include",
+	"INCLUDE_DIR_Debug" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"BOOST_FILESYSTEM_VERSION=3",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_SERIALIZATION_DYN_LINK",
+		"BOOST_SERIALIZATION_NO_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"register="
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"BOOST_FILESYSTEM_VERSION=3",
+		"BOOST_PROGRAM_OPTIONS_DYN_LINK",
+		"BOOST_PROGRAM_OPTIONS_NO_LIB",
+		"BOOST_SERIALIZATION_DYN_LINK",
+		"BOOST_SERIALIZATION_NO_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB",
+		"register="
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer",
+		"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer",
+		"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer",
+		"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/khronos_headers",
+		"/opt/homebrew/Cellar/glew/2.2.0_1/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework",
+		"/Users/james/Desktop/VolcanoWeather/volcanoviz",
+		"/opt/homebrew/include",
+		"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers",
+		"/opt/homebrew/opt/qt@5/lib/QtGui.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtGui.framework/Headers",
+		"/opt/homebrew/opt/qt@5/lib/QtCore.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers",
+		"/opt/homebrew/opt/qt@5/mkspecs/macx-clang",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework",
+		"/opt/homebrew/opt/qt@5/lib/QtOpenGL.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE_Debug" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/moc_predefs_Debug.h",
+	"MOC_PREDEFS_FILE_MinSizeRel" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/moc_predefs_MinSizeRel.h",
+	"MOC_PREDEFS_FILE_RelWithDebInfo" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/moc_predefs_RelWithDebInfo.h",
+	"MOC_PREDEFS_FILE_Release" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/vgui_autogen/moc_predefs_Release.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/homebrew/opt/qt@5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/data_importer/data_importer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/descriptor.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/dice_roller.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/glwidget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/mesh.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/noisefield.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/palette.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shaderProgram.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/shape.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/stroke.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/terrain.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/timer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/trenderer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/typemap.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/vecpnt.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/view.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/volcano.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/waterfill.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/terviewer/window.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

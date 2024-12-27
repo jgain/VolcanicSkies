@@ -1,0 +1,11 @@
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeFiles/RUN_TESTS.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/CMakeFiles/common.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/common/CMakeFiles/RUN_TESTS.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/clh/CMakeFiles/RUN_TESTS.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/terviewer.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/RUN_TESTS.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/vgui_autogen.dir
+/Users/james/Desktop/VolcanoWeather/volcanoviz/viewer/xcode/terviewer/CMakeFiles/terviewer_autogen.dir
